@@ -9,7 +9,7 @@ let applicationState = {
     reservations: []
 }
 
-
+let main = document.querySelector("#container")
 const API = "http://localhost:8088"
 
 //!this is fetching the clowns from the database
@@ -54,7 +54,7 @@ export const saveClientInfo = (clientInfo) => {
     const fetchClientInfo = {
         method: "POST",
         headers: {"Content-Type":"application/json"},
-        body: Json.stringify(clientInfo)
+        body: JSON.stringify(clientInfo)
     }
     return fetch(`${API}/clients`, fetchClientInfo)
         .then(response => response.json())
