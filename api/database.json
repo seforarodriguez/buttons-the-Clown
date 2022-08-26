@@ -1,5 +1,51 @@
 {
-    "clowns": [],
-    "clients": [],
-    "reservations":[] 
+  "clowns": [],
+  "clients": [
+    {
+      "parentName": "maria",
+      "childName": "carlos",
+      "childrenAmount": 50,
+      "address": "44 st. GA",
+      "date_of_event": "2022-01-01",
+      "hours_Needed": 3,
+      "id": 1
+    },
+    {
+      "parentName": "Me",
+      "childName": "my Son",
+      "childrenAmount": 50,
+      "address": "My house",
+      "date_of_event": "2022-04-04",
+      "hours_Needed": 7,
+      "id": 2
+    },
+    {
+      "parentName": "Me",
+      "childName": "my Son",
+      "childrenAmount": 50,
+      "address": "My house",
+      "date_of_event": "2022-04-04",
+      "hours_Needed": 7,
+      "id": 3
+    },
+    {
+      "parentName": "Myself",
+      "childName": "My daughter",
+      "childrenAmount": 30,
+      "address": "33 st. of nowhere",
+      "date_of_event": "2022-01-01",
+      "hours_Needed": 5,
+      "id": 4
+    },
+    {
+      "parentName": "My husband",
+      "childName": "mykid",
+      "childrenAmount": 20,
+      "address": "44st",
+      "date_of_event": "2022-12-31",
+      "hours_Needed": 3,
+      "id": 5
+    }
+  ],
+  "reservations": []
 }

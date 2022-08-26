@@ -11,5 +11,7 @@ const render = () => {
     .then(() => {main.innerHTML = clownServices()})
 
 }
-
+main.addEventListener("stateChanged", customEvent => {
+    render()
+})
 render ()
