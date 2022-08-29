@@ -1,5 +1,11 @@
 {
-  "clowns": [],
+  "clowns": [{
+    "id":1,
+    "clownName":"Buttons"
+  },{
+    "id":2,
+    "clownName":"Lollipop"
+  }],
   "clients": [
     {
       "parentName": "maria",

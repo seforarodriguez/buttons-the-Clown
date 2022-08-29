@@ -35,6 +35,11 @@ export const fetchClients = () => {
             }
         )
 }
+//?This is the getter for the clients
+export const getClients = () => {
+    return applicationState.clients.map(client => ({...client}))
+}
+
 
 //!this is fetching the reservations from the database
 export const fetchReservations = () => {
