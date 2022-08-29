@@ -7,7 +7,7 @@ export const main = document.querySelector("#container")
 const render = () => {
     fetchClowns()
     .then(() => fetchClients())
-    .then(() => fetchReservations)
+    .then(() => fetchReservations())
     .then(() => {main.innerHTML = clownServices()})
 
 }
