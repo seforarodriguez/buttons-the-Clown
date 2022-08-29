@@ -68,7 +68,8 @@ export const saveClientInfo = (clientInfo) => {
         })
 }
 
-//!This is deleting from the list the reservations from clients that were denied, therefor deleted from the database
+//!This is deleting from the list the reservations from clients that were denied, 
+//!therefore deleted from the database
 export const denyParty = (id) => {
     return fetch(`${API}/clients/${id}`, { method: "DELETE" })
         .then(

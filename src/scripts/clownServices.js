@@ -7,8 +7,10 @@ export const clownServices = () => {
     <header> Buttons and Lollipop The Clowns</header>
         <h1>Reservations</h1>
         ${reservationForm()}
+    <section>
        <h2>Every Reservation Made</h2>
        ${ReservationRequest()} 
+    </section>
         `
     return html
 }

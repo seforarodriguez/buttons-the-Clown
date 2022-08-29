@@ -1,0 +1,7 @@
+section {
+    display: grid;
+
+}
+.reservation__denied {
+    background-color: red;
+}

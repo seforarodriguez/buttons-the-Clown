@@ -11,24 +11,6 @@
   ],
   "clients": [
     {
-      "parentName": "Myself",
-      "childName": "My daughter",
-      "childrenAmount": 30,
-      "address": "33 st. of nowhere",
-      "date_of_event": "2022-01-01",
-      "hours_Needed": 5,
-      "id": 4
-    },
-    {
-      "parentName": "My husband",
-      "childName": "mykid",
-      "childrenAmount": 20,
-      "address": "44st",
-      "date_of_event": "2022-12-31",
-      "hours_Needed": 3,
-      "id": 5
-    },
-    {
       "parentName": "Elia Huber",
       "childName": "Zoe Huber",
       "childrenAmount": 35,
@@ -45,6 +27,15 @@
       "date_of_event": "2022-08-30",
       "hours_Needed": 2,
       "id": 7
+    },
+    {
+      "parentName": "Sela Gomez",
+      "childName": "Alana Roedan",
+      "childrenAmount": 35,
+      "address": "Ave. Bolivar",
+      "date_of_event": "2022-12-04",
+      "hours_Needed": 2,
+      "id": 8
     }
   ],
   "reservations": []

@@ -11,7 +11,7 @@ const main = document.querySelector("#container")
 
 export const ReservationRequest = () => {
     const clients = getClients()
-
+   
 let eachClient = clients.map(clientRequest => {
     let html = `
     <div class= "client-Request">${clientRequest.parentName} needs help with: ${clientRequest.childName}'s bithday party, on the ${clientRequest.date_of_event}</div>
@@ -23,7 +23,7 @@ let eachClient = clients.map(clientRequest => {
     `
     return html
 })
-
+   
 return eachClient.join('')
 }
 
