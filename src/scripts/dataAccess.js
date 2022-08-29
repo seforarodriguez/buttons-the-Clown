@@ -67,3 +67,13 @@ export const saveClientInfo = (clientInfo) => {
             main.dispatchEvent(new CustomEvent ("stateChanged"))
         })
 }
+
+//!This is deleting from the list the reservations from clients that were denied, therefor deleted from the database
+export const denyParty = (id) => {
+    return fetch(`${API}/clients/${id}`, { method: "DELETE" })
+        .then(
+            () => {
+                main.dispatchEvent(new CustomEvent("stateChanged"))
+            }
+        )
+}
