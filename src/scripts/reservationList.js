@@ -3,7 +3,7 @@
 //!First thing to do is import the reservations from the database
 //!Then to show the options I need to iterate through the array of Objects of clients
 //!each client will be listed with their children's name and day of the event
-import { getClients } from "./dataAccess.js";
+import { getClients, denyParty } from "./dataAccess.js";
 
 const main = document.querySelector("#container")
 
@@ -14,7 +14,7 @@ export const ReservationRequest = () => {
 
 let eachClient = clients.map(clientRequest => {
     let html = `
-    <div class= "client-Request">${clientRequest.parentName} needs help with: ${clientRequest.childName} bithday party, on the ${clientRequest.date_of_event}</div>
+    <div class= "client-Request">${clientRequest.parentName} needs help with: ${clientRequest.childName}'s bithday party, on the ${clientRequest.date_of_event}</div>
     <button class="reservation__denied"
             id="reservation--${clientRequest.id}">
         Deny Party, Sowy <3
@@ -30,6 +30,6 @@ return eachClient.join('')
 main.addEventListener("click", click => {
     if (click.target.id.startsWith("reservation")) {
         const [, clientId] = click.target.id.split("--")
-        deleteRequest(parseInt(clientId))
+        denyParty(parseInt(clientId))
     }
 })

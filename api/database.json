@@ -1,39 +1,15 @@
 {
-  "clowns": [{
-    "id":1,
-    "clownName":"Buttons"
-  },{
-    "id":2,
-    "clownName":"Lollipop"
-  }],
+  "clowns": [
+    {
+      "id": 1,
+      "clownName": "Buttons"
+    },
+    {
+      "id": 2,
+      "clownName": "Lollipop"
+    }
+  ],
   "clients": [
-    {
-      "parentName": "maria",
-      "childName": "carlos",
-      "childrenAmount": 50,
-      "address": "44 st. GA",
-      "date_of_event": "2022-01-01",
-      "hours_Needed": 3,
-      "id": 1
-    },
-    {
-      "parentName": "Me",
-      "childName": "my Son",
-      "childrenAmount": 50,
-      "address": "My house",
-      "date_of_event": "2022-04-04",
-      "hours_Needed": 7,
-      "id": 2
-    },
-    {
-      "parentName": "Me",
-      "childName": "my Son",
-      "childrenAmount": 50,
-      "address": "My house",
-      "date_of_event": "2022-04-04",
-      "hours_Needed": 7,
-      "id": 3
-    },
     {
       "parentName": "Myself",
       "childName": "My daughter",
@@ -51,6 +27,24 @@
       "date_of_event": "2022-12-31",
       "hours_Needed": 3,
       "id": 5
+    },
+    {
+      "parentName": "Elia Huber",
+      "childName": "Zoe Huber",
+      "childrenAmount": 35,
+      "address": "Danae St. DR",
+      "date_of_event": "2022-09-01",
+      "hours_Needed": 3,
+      "id": 6
+    },
+    {
+      "parentName": "Janelle Rodriguez",
+      "childName": "Jan Checo",
+      "childrenAmount": 34,
+      "address": "San Isidro",
+      "date_of_event": "2022-08-30",
+      "hours_Needed": 2,
+      "id": 7
     }
   ],
   "reservations": []
